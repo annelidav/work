@@ -1,0 +1,28 @@
+.button {
+  font-family: Inter, sans-serif;
+  background: #a53535;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  padding: 14px 25px;
+  cursor: pointer;
+}
+
+.button__right-icon {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.button--variant--ghost {
+  padding: 14px 40px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  opacity: 0.9;
+}

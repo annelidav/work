@@ -1,0 +1,16 @@
+.footer {
+  background: #000000;
+  padding: 88px;
+}
+
+.footer__container {
+  padding: 120px 30px;
+}
+
+.footer-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 0 33.33%;
+  cursor: pointer;
+}

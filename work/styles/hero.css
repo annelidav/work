@@ -1,0 +1,46 @@
+.hero {
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border: 1px dotted #a53535;
+}
+
+.hero__title {
+  margin-bottom: 32px;
+}
+
+.hero__img {
+  margin-bottom: 32px;
+}
+
+.hero__description {
+  margin-bottom: 60px;
+}
+
+.hero__form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0 100px;
+  margin-bottom: 32px;
+}
+
+.hero__info {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #a53535;
+  padding: 0 64px;
+  margin: 32px 0;
+  font-size: 16px;
+  background: none;
+}
